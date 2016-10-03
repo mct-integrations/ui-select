@@ -6,13 +6,12 @@
            autocorrect="off" 
            autocapitalize="off" 
            spellcheck="false"
-           class="ui-select-search input-xs"
+           class="ui-select-search input-xs multi-select"
            placeholder="{{$selectMultiple.getPlaceholder()}}"
            ng-disabled="$select.disabled"
            ng-hide="$select.disabled"
            ng-click="$select.activate()"
            ng-model="$select.search"
-           role="combobox"
            aria-label="{{ $select.baseTitle }}"
            ondrop="return false;">
   </div>
